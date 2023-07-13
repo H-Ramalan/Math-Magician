@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Elements = ({ number }) => {
+const Elements = ({ number, handleClick }) => {
   if (
     number === '\u00F7'
     || number === 'x'
@@ -9,19 +9,36 @@ const Elements = ({ number }) => {
     || number === '+'
     || number === '='
   ) {
-    return <div className="input-btn signs">{number}</div>;
+    return (
+      <button type="button" className="input-btn signs" onClick={handleClick}>
+        {number}
+      </button>
+    );
   }
   if (number === '0') {
-    return <div className="input-btn zero">{number}</div>;
+    return (
+      <button type="button" className="input-btn zero" onClick={handleClick}>
+        {number}
+      </button>
+    );
   }
   if (number === 'AC' || number === '+/-' || number === '%') {
-    return <div className="input-btn top">{number}</div>;
+    return (
+      <button type="button" className="input-btn top" onClick={handleClick}>
+        {number}
+      </button>
+    );
   }
-  return <div className="input-btn">{number}</div>;
+  return (
+    <button type="button" className="input-btn" onClick={handleClick}>
+      {number}
+    </button>
+  );
 };
 
 Elements.propTypes = {
   number: PropTypes.number.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Elements;

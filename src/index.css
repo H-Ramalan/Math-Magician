@@ -15,6 +15,27 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.calc-container {
+  display: grid;
+  width: 27rem;
+  height: 25rem;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin: 10rem auto;
+  border: 2px solid white;
+}
+
+.output {
+  grid-column: 1/5;
+  background-color: #b0afaf;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.3rem;
+  color: white;
+  font-size: 25px;
+}
+
 .input-btn {
   border: 1px solid #b0afaf;
   background-color: whitesmoke;
@@ -30,25 +51,4 @@ body {
 
 .zero {
   grid-column: 1/3;
-}
-
-.calc-container {
-  display: grid;
-  width: 27rem;
-  height: 25rem;
-  grid-template-columns: repeat(4, 1fr);
-  text-align: center;
-  margin: 10rem auto;
-  border: 2px solid white;
-}
-
-.result {
-  grid-column: 1/5;
-  background-color: #b0afaf;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0.3rem;
-  color: white;
-  font-size: 25px;
 }
