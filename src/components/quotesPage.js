@@ -5,7 +5,9 @@ import Quote from './Quote';
 const QuotePage = () => (
   <div>
     <Nav />
-    <Quote />
+    <main>
+      <Quote />
+    </main>
   </div>
 );
 
