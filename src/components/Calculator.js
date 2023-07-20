@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Elements from './elements';
 import calculate from '../logic/calculate';
+import './Calculator.css';
 
 const calcFigures = [
   'AC',

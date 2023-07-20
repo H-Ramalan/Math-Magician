@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(139, 133, 126);
+  color: #1a220491;
+  height: 200px;
+}
+
+h2 {
+  font-size: 38px;
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  color: #1a220491;
+}
+
+.text-container p {
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px;
+}
+
+.math {
+  color: #1a220491;
+  padding-top: 5rem;
+  font-size: 38px;
+  text-align: center;
+}

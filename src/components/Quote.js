@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './quotesPage.css';
 
 const Quote = () => {
   const [loading, setLoading] = useState(false);
