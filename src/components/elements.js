@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './elements.css';
 
 const Elements = ({ number, handleClick }) => {
   if (
