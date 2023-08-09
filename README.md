@@ -143,8 +143,8 @@ This project is not currently deployed.
 👤 **Hamza Ramalan Ibrahim**
 
 - GitHub: [@H-Ramalan](https://github.com/H-Ramalan)
-- Twitter: [@msanemkckbayram](https://twitter.com/hamza-ramalan)
-- LinkedIn: [Meryem Sanem Küçükbayram](https://www.linkedin.com/in/hamza-ramalan/)
+- Twitter: [@Hamza_Ramalan](https://twitter.com/hamza-ramalan)
+- LinkedIn: [Hamza Ramalan Ibrahim](https://www.linkedin.com/in/hamza-ramalan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
